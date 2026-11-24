@@ -232,8 +232,8 @@ jobs:
           SCHEME: ${{ steps.gen.outputs.project_name }}
           BUILD_CONFIG: ${{ inputs.configuration || 'Release' }}
         run: |
-          mkdir -p "${IOS_DIR}/build"
-          xcodebuild clean build \
+          rm -rf "${IOS_DIR}/build"
+          xcodebuild build \
             -project "$XCODEPROJ" \
             -scheme "$SCHEME" \
             -sdk iphoneos \

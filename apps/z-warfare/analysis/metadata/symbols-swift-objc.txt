@@ -1,0 +1,17 @@
+=== ObjC Metadata Names (2 matches; showing up to 4000) ===
+PodsDummy_Pods_Unity_iPhone
+PodsDummy_Pods_Unity_iPhone
+
+=== Demangled Symbols (12 total; showing up to 6000) ===
+                 (undefined) external _OBJC_CLASS_$_NSBundle (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPop (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPush (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header

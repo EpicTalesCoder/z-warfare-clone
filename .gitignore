@@ -1,0 +1,27 @@
+# Byte-compiled & OS
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+
+# iOS reverse-engineering binaries, extracted IPAs, disassembler DBs & Xcode build outputs
+*.ipa
+*.tipa
+*.xcarchive
+*.dSYM/
+dist-ipa/
+apps/*/original/
+apps/*/analysis/extracted/
+apps/*/analysis/extracted_assets/
+apps/*/analysis/ghidra-project/
+apps/*/analysis/*.gpr
+apps/*/analysis/*.rep/
+apps/*/analysis/*.i64
+apps/*/analysis/*.idb
+apps/*/analysis/*.hop
+apps/*/analysis/*.bndb
+apps/*/ios-app/*.xcodeproj/
+apps/*/ios-app/DerivedData/
+apps/*/ios-app/build/
+apps/*/ios-app/.build/

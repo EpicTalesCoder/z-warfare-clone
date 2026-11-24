@@ -1,0 +1,9 @@
+{
+  "AGREE_MESSAGE": "Please press \"Continue\" if you choose to start using our app.",
+  "CONTINUE_BUTTON_TITLE": "Continue",
+  "PP_AND_TOS_TITLE": "To use %@ you must agree to our Terms & Conditions and affirm you have reviewed our Privacy Policy",
+  "PP_TITLE": "To use %@ you must affirm that you have reviewed and acknowledged our Privacy Policy.",
+  "PRIVACY_POLICY_TEXT": "Privacy Policy",
+  "TERMS_AND_CONDITIONS_TEXT": "Terms & Conditions",
+  "TERMS_OF_USE_TEXT": "Terms of Use"
+}

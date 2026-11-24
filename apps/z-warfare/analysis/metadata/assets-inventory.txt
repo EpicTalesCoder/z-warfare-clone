@@ -1,0 +1,6 @@
+# Assets.car (1,540,088 B) — 45 renditions, 4 unique names
+
+AppIcon
+MAR-1721_v1
+ZZZZPackedAsset-2.1.0-gamut0
+ZZZZPackedAsset-3.1.0-gamut0

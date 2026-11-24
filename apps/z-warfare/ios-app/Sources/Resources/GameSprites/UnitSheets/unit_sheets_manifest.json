@@ -1,0 +1,3613 @@
+{
+  "b_alienbuilder": {
+    "frameWidth": 180,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "b_biker": {
+    "frameWidth": 162,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "b_bill": {
+    "frameWidth": 96,
+    "frameHeight": 78,
+    "totalFrames": 6,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 1
+      },
+      "attack": {
+        "start": 2,
+        "count": 4
+      },
+      "death": {
+        "start": 6,
+        "count": 0
+      }
+    }
+  },
+  "b_bomber": {
+    "frameWidth": 104,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "b_brother": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "b_builder": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "b_cap": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "b_crazy": {
+    "frameWidth": 72,
+    "frameHeight": 72,
+    "totalFrames": 10,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 0
+      }
+    }
+  },
+  "b_farmer": {
+    "frameWidth": 136,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "b_naked": {
+    "frameWidth": 136,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "bandittruck": {
+    "frameWidth": 28,
+    "frameHeight": 42,
+    "totalFrames": 3,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 1
+      },
+      "attack": {
+        "start": 2,
+        "count": 1
+      },
+      "death": {
+        "start": 3,
+        "count": 0
+      }
+    }
+  },
+  "h_abby": {
+    "frameWidth": 108,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_agent": {
+    "frameWidth": 136,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_agent002": {
+    "frameWidth": 136,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_akira": {
+    "frameWidth": 350,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_archer": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_austin": {
+    "frameWidth": 136,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_ballisticshielder": {
+    "frameWidth": 148,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_berserker": {
+    "frameWidth": 136,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_bill": {
+    "frameWidth": 77,
+    "frameHeight": 74,
+    "totalFrames": 8,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 2
+      },
+      "attack": {
+        "start": 4,
+        "count": 4
+      },
+      "death": {
+        "start": 8,
+        "count": 0
+      }
+    }
+  },
+  "h_builder": {
+    "frameWidth": 164,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_carlos": {
+    "frameWidth": 122,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_carol": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_cashier": {
+    "frameWidth": 136,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_charlotte": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_cheechmarin": {
+    "frameWidth": 136,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_chopper": {
+    "frameWidth": 134,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_cop": {
+    "frameWidth": 76,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_decoy": {
+    "frameWidth": 212,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_epidemiologist": {
+    "frameWidth": 146,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_escapee": {
+    "frameWidth": 84,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_farmer": {
+    "frameWidth": 136,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_firefighter": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_flamethrower": {
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_forestfirefighter": {
+    "frameWidth": 160,
+    "frameHeight": 80,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_freeze": {
+    "frameWidth": 322,
+    "frameHeight": 136,
+    "totalFrames": 10,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 2
+      },
+      "death": {
+        "start": 8,
+        "count": 2
+      }
+    }
+  },
+  "h_glenn": {
+    "frameWidth": 136,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_glenn2": {
+    "frameWidth": 136,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_grenader": {
+    "frameWidth": 182,
+    "frameHeight": 86,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_guard": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_hammer": {
+    "frameWidth": 210,
+    "frameHeight": 100,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_haruko": {
+    "frameWidth": 122,
+    "frameHeight": 86,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_heavyguard": {
+    "frameWidth": 120,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_hero": {
+    "frameWidth": 110,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_jailer": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_jailerrifle": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_judi": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_lester": {
+    "frameWidth": 150,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_lightsoldier": {
+    "frameWidth": 110,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_mechanic": {
+    "frameWidth": 136,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_medic": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_naked": {
+    "frameWidth": 136,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_paramedicvolt": {
+    "frameWidth": 120,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_queen": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_sarah": {
+    "frameWidth": 124,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_saw": {
+    "frameWidth": 200,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_shocker": {
+    "frameWidth": 120,
+    "frameHeight": 72,
+    "totalFrames": 10,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 2
+      },
+      "death": {
+        "start": 8,
+        "count": 2
+      }
+    }
+  },
+  "h_sniper": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_soldiercap": {
+    "frameWidth": 136,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_sonya": {
+    "frameWidth": 152,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_specops": {
+    "frameWidth": 72,
+    "frameHeight": 72,
+    "totalFrames": 10,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 0
+      }
+    }
+  },
+  "h_swat": {
+    "frameWidth": 132,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_toadstool": {
+    "frameWidth": 72,
+    "frameHeight": 72,
+    "totalFrames": 8,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 4
+      },
+      "attack": {
+        "start": 5,
+        "count": 1
+      },
+      "death": {
+        "start": 6,
+        "count": 2
+      }
+    }
+  },
+  "h_turbogirl": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_welder": {
+    "frameWidth": 112,
+    "frameHeight": 80,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_xmas": {
+    "frameWidth": 110,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "h_yellow": {
+    "frameWidth": 146,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "item_barrel": {
+    "frameWidth": 72,
+    "frameHeight": 64,
+    "totalFrames": 5,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 1
+      },
+      "attack": {
+        "start": 2,
+        "count": 1
+      },
+      "death": {
+        "start": 3,
+        "count": 2
+      }
+    }
+  },
+  "item_decoy": {
+    "frameWidth": 28,
+    "frameHeight": 28,
+    "totalFrames": 6,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 2
+      },
+      "attack": {
+        "start": 4,
+        "count": 2
+      },
+      "death": {
+        "start": 6,
+        "count": 0
+      }
+    }
+  },
+  "item_drone": {
+    "frameWidth": 147,
+    "frameHeight": 134,
+    "totalFrames": 8,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 2
+      },
+      "attack": {
+        "start": 4,
+        "count": 2
+      },
+      "death": {
+        "start": 6,
+        "count": 2
+      }
+    }
+  },
+  "item_generator": {
+    "frameWidth": 68,
+    "frameHeight": 64,
+    "totalFrames": 8,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 2
+      },
+      "attack": {
+        "start": 4,
+        "count": 2
+      },
+      "death": {
+        "start": 6,
+        "count": 2
+      }
+    }
+  },
+  "item_grenade": {
+    "frameWidth": 146,
+    "frameHeight": 76,
+    "totalFrames": 3,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 1
+      },
+      "attack": {
+        "start": 2,
+        "count": 1
+      },
+      "death": {
+        "start": 3,
+        "count": 0
+      }
+    }
+  },
+  "item_medkit": {
+    "frameWidth": 64,
+    "frameHeight": 198,
+    "totalFrames": 3,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 1
+      },
+      "attack": {
+        "start": 2,
+        "count": 1
+      },
+      "death": {
+        "start": 3,
+        "count": 0
+      }
+    }
+  },
+  "item_mine": {
+    "frameWidth": 72,
+    "frameHeight": 72,
+    "totalFrames": 3,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 1
+      },
+      "attack": {
+        "start": 2,
+        "count": 1
+      },
+      "death": {
+        "start": 3,
+        "count": 0
+      }
+    }
+  },
+  "item_molotov": {
+    "frameWidth": 64,
+    "frameHeight": 50,
+    "totalFrames": 6,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 2
+      },
+      "attack": {
+        "start": 4,
+        "count": 2
+      },
+      "death": {
+        "start": 6,
+        "count": 0
+      }
+    }
+  },
+  "item_nitrogen": {
+    "frameWidth": 72,
+    "frameHeight": 64,
+    "totalFrames": 6,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 2
+      },
+      "attack": {
+        "start": 4,
+        "count": 2
+      },
+      "death": {
+        "start": 6,
+        "count": 0
+      }
+    }
+  },
+  "item_red_barrel": {
+    "frameWidth": 72,
+    "frameHeight": 64,
+    "totalFrames": 4,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 1
+      },
+      "attack": {
+        "start": 2,
+        "count": 1
+      },
+      "death": {
+        "start": 3,
+        "count": 1
+      }
+    }
+  },
+  "item_turret": {
+    "frameWidth": 140,
+    "frameHeight": 100,
+    "totalFrames": 10,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 2
+      },
+      "attack": {
+        "start": 4,
+        "count": 4
+      },
+      "death": {
+        "start": 8,
+        "count": 2
+      }
+    }
+  },
+  "z_abby": {
+    "frameWidth": 124,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_alienboomer": {
+    "frameWidth": 160,
+    "frameHeight": 119,
+    "totalFrames": 10,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 2
+      },
+      "death": {
+        "start": 8,
+        "count": 2
+      }
+    }
+  },
+  "z_alienbuilder": {
+    "frameWidth": 154,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_aliencop": {
+    "frameWidth": 102,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_aliennaked": {
+    "frameWidth": 110,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_aliennakedrun": {
+    "frameWidth": 72,
+    "frameHeight": 72,
+    "totalFrames": 6,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 4
+      },
+      "attack": {
+        "start": 5,
+        "count": 1
+      },
+      "death": {
+        "start": 6,
+        "count": 0
+      }
+    }
+  },
+  "z_alientwins": {
+    "frameWidth": 72,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_blackskeleton": {
+    "frameWidth": 157,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_boomer": {
+    "frameWidth": 162,
+    "frameHeight": 128,
+    "totalFrames": 10,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 2
+      },
+      "death": {
+        "start": 8,
+        "count": 2
+      }
+    }
+  },
+  "z_boss": {
+    "frameWidth": 260,
+    "frameHeight": 120,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_builder": {
+    "frameWidth": 137,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_builderrun": {
+    "frameWidth": 150,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_bulletproof": {
+    "frameWidth": 137,
+    "frameHeight": 72,
+    "totalFrames": 3,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 1
+      },
+      "attack": {
+        "start": 2,
+        "count": 1
+      },
+      "death": {
+        "start": 3,
+        "count": 0
+      }
+    }
+  },
+  "z_cephalopoda": {
+    "frameWidth": 876,
+    "frameHeight": 284,
+    "totalFrames": 9,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 2
+      },
+      "attack": {
+        "start": 4,
+        "count": 4
+      },
+      "death": {
+        "start": 8,
+        "count": 1
+      }
+    }
+  },
+  "z_cephalopodamini": {
+    "frameWidth": 250,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_cheechmarin": {
+    "frameWidth": 110,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_chinese": {
+    "frameWidth": 110,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_chineseexpl": {
+    "frameWidth": 72,
+    "frameHeight": 112,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_chopper": {
+    "frameWidth": 172,
+    "frameHeight": 80,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_cop": {
+    "frameWidth": 102,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_copsmall": {
+    "frameWidth": 137,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_crank": {
+    "frameWidth": 200,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_demon": {
+    "frameWidth": 256,
+    "frameHeight": 128,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_demonmini": {
+    "frameWidth": 156,
+    "frameHeight": 114,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_dog": {
+    "frameWidth": 170,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_egg": {
+    "frameWidth": 72,
+    "frameHeight": 72,
+    "totalFrames": 8,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 2
+      },
+      "attack": {
+        "start": 4,
+        "count": 2
+      },
+      "death": {
+        "start": 6,
+        "count": 2
+      }
+    }
+  },
+  "z_farmer": {
+    "frameWidth": 136,
+    "frameHeight": 56,
+    "totalFrames": 3,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 1
+      },
+      "attack": {
+        "start": 2,
+        "count": 1
+      },
+      "death": {
+        "start": 3,
+        "count": 0
+      }
+    }
+  },
+  "z_firefighter": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_forestfirefighter": {
+    "frameWidth": 76,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_freehugs": {
+    "frameWidth": 72,
+    "frameHeight": 72,
+    "totalFrames": 8,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 2
+      },
+      "attack": {
+        "start": 4,
+        "count": 2
+      },
+      "death": {
+        "start": 6,
+        "count": 2
+      }
+    }
+  },
+  "z_girl": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_girlprisoner": {
+    "frameWidth": 72,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_girlpumpkin": {
+    "frameWidth": 150,
+    "frameHeight": 82,
+    "totalFrames": 8,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 2
+      },
+      "attack": {
+        "start": 4,
+        "count": 2
+      },
+      "death": {
+        "start": 6,
+        "count": 2
+      }
+    }
+  },
+  "z_heavyguard": {
+    "frameWidth": 120,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_hunter": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 11,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 4
+      },
+      "attack": {
+        "start": 5,
+        "count": 4
+      },
+      "death": {
+        "start": 9,
+        "count": 2
+      }
+    }
+  },
+  "z_hypnotist": {
+    "frameWidth": 90,
+    "frameHeight": 88,
+    "totalFrames": 10,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 2
+      },
+      "attack": {
+        "start": 4,
+        "count": 4
+      },
+      "death": {
+        "start": 8,
+        "count": 2
+      }
+    }
+  },
+  "z_insect": {
+    "frameWidth": 180,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_kamikaze": {
+    "frameWidth": 260,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_megavolt": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_mimic": {
+    "frameWidth": 142,
+    "frameHeight": 88,
+    "totalFrames": 10,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 2
+      },
+      "death": {
+        "start": 8,
+        "count": 2
+      }
+    }
+  },
+  "z_monk": {
+    "frameWidth": 102,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_naked": {
+    "frameWidth": 110,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_nakedpoison": {
+    "frameWidth": 188,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_nakedrun": {
+    "frameWidth": 122,
+    "frameHeight": 72,
+    "totalFrames": 6,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 4
+      },
+      "attack": {
+        "start": 5,
+        "count": 1
+      },
+      "death": {
+        "start": 6,
+        "count": 0
+      }
+    }
+  },
+  "z_necromancer": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 8,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 2
+      },
+      "attack": {
+        "start": 4,
+        "count": 2
+      },
+      "death": {
+        "start": 6,
+        "count": 2
+      }
+    }
+  },
+  "z_offal": {
+    "frameWidth": 112,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_paramedic": {
+    "frameWidth": 110,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_paramedicvolt": {
+    "frameWidth": 280,
+    "frameHeight": 72,
+    "totalFrames": 10,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 2
+      },
+      "death": {
+        "start": 8,
+        "count": 2
+      }
+    }
+  },
+  "z_prealien": {
+    "frameWidth": 72,
+    "frameHeight": 72,
+    "totalFrames": 10,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 0
+      }
+    }
+  },
+  "z_preegg": {
+    "frameWidth": 102,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_prisoner": {
+    "frameWidth": 72,
+    "frameHeight": 72,
+    "totalFrames": 10,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 0
+      }
+    }
+  },
+  "z_prisonerlocusts": {
+    "frameWidth": 114,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_psy": {
+    "frameWidth": 124,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_puke": {
+    "frameWidth": 116,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_pumpkinnaked": {
+    "frameWidth": 130,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_pumpkinnakedrun": {
+    "frameWidth": 72,
+    "frameHeight": 72,
+    "totalFrames": 6,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 4
+      },
+      "attack": {
+        "start": 5,
+        "count": 1
+      },
+      "death": {
+        "start": 6,
+        "count": 0
+      }
+    }
+  },
+  "z_putrid": {
+    "frameWidth": 100,
+    "frameHeight": 82,
+    "totalFrames": 10,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 0
+      }
+    }
+  },
+  "z_rotten": {
+    "frameWidth": 132,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_shielder": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_skeleton": {
+    "frameWidth": 157,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_skeletonmillitary": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_skeletonsapper": {
+    "frameWidth": 120,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_smoker": {
+    "frameWidth": 157,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_soldier": {
+    "frameWidth": 110,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_soldierfat": {
+    "frameWidth": 120,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_sphere": {
+    "frameWidth": 72,
+    "frameHeight": 72,
+    "totalFrames": 8,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 2
+      },
+      "attack": {
+        "start": 4,
+        "count": 2
+      },
+      "death": {
+        "start": 6,
+        "count": 2
+      }
+    }
+  },
+  "z_summernaked": {
+    "frameWidth": 172,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_summernakedrun": {
+    "frameWidth": 72,
+    "frameHeight": 72,
+    "totalFrames": 6,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 4
+      },
+      "attack": {
+        "start": 5,
+        "count": 1
+      },
+      "death": {
+        "start": 6,
+        "count": 0
+      }
+    }
+  },
+  "z_swat": {
+    "frameWidth": 164,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_terminal": {
+    "frameWidth": 156,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_twins": {
+    "frameWidth": 110,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_undead": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_witch": {
+    "frameWidth": 100,
+    "frameHeight": 54,
+    "totalFrames": 11,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 4
+      },
+      "attack": {
+        "start": 5,
+        "count": 4
+      },
+      "death": {
+        "start": 9,
+        "count": 2
+      }
+    }
+  },
+  "z_xmascop": {
+    "frameWidth": 122,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_xmasgirl": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_xmasnaked": {
+    "frameWidth": 120,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_xmasnakedrun": {
+    "frameWidth": 72,
+    "frameHeight": 72,
+    "totalFrames": 6,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 1
+      },
+      "move": {
+        "start": 1,
+        "count": 4
+      },
+      "attack": {
+        "start": 5,
+        "count": 1
+      },
+      "death": {
+        "start": 6,
+        "count": 0
+      }
+    }
+  },
+  "z_yellow": {
+    "frameWidth": 128,
+    "frameHeight": 72,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  },
+  "z_yellowfat": {
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "totalFrames": 12,
+    "states": {
+      "idle": {
+        "start": 0,
+        "count": 2
+      },
+      "move": {
+        "start": 2,
+        "count": 4
+      },
+      "attack": {
+        "start": 6,
+        "count": 4
+      },
+      "death": {
+        "start": 10,
+        "count": 2
+      }
+    }
+  }
+}

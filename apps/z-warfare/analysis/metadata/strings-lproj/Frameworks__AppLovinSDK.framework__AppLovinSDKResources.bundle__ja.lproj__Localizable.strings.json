@@ -1,0 +1,9 @@
+{
+  "AGREE_MESSAGE": "アプリを利用するために「次へ」をクリックしてください。",
+  "CONTINUE_BUTTON_TITLE": "次へ",
+  "PP_AND_TOS_TITLE": "%@ を使用するためには利用規約への同意およびプライバシーポリシーの確認が必要です。",
+  "PP_TITLE": "%@を使用するためにはプライバシーポリシーを慎重に確認し、承認する必要があります。",
+  "PRIVACY_POLICY_TEXT": "プライバシーポリシー",
+  "TERMS_AND_CONDITIONS_TEXT": "利用規約",
+  "TERMS_OF_USE_TEXT": "利用規約"
+}

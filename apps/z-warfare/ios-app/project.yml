@@ -1,0 +1,81 @@
+name: ZWarfare
+options:
+  bundleIdPrefix: com.rebuild
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+    SWIFT_VERSION: "5.0"
+    ARCHS: arm64
+    TARGETED_DEVICE_FAMILY: "1"
+    SUPPORTS_MACCATALYST: NO
+    ENABLE_BITCODE: NO
+    CODE_SIGNING_ALLOWED: NO
+    CODE_SIGNING_REQUIRED: NO
+    CODE_SIGN_IDENTITY: ""
+    DEVELOPMENT_TEAM: ""
+
+targets:
+  ZWarfare:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: Sources
+        excludes:
+          - "Resources/Info.plist"
+          - "Resources/Entitlements.plist"
+          - "Resources/GameSprites/**"
+          - "Resources/Audio/**"
+          - "Resources/Data/**"
+      - path: Sources/Resources/GameSprites
+        type: folder
+        buildPhase: resources
+      - path: Sources/Resources/Audio
+        type: folder
+        buildPhase: resources
+      - path: Sources/Resources/Data
+        type: folder
+        buildPhase: resources
+    dependencies:
+      - sdk: libz.tbd
+    settings:
+      base:
+        PRODUCT_NAME: ZWarfare
+        PRODUCT_BUNDLE_IDENTIFIER: com.rebuild.zwarfare
+        INFOPLIST_FILE: Sources/Resources/Info.plist
+        MARKETING_VERSION: "4.4.7"
+        CURRENT_PROJECT_VERSION: "257"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGN_IDENTITY: ""
+      configs:
+        Release:
+          ONLY_ACTIVE_ARCH: NO
+          SWIFT_OPTIMIZATION_LEVEL: "-O"
+          STRIP_INSTALLED_PRODUCT: NO
+          COPY_PHASE_STRIP: NO
+    scheme:
+      testTargets:
+        - ZWarfareTests
+
+  ZWarfareTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: Tests
+    dependencies:
+      - target: ZWarfare
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGN_IDENTITY: ""

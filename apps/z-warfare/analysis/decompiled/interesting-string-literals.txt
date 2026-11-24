@@ -1,0 +1,821 @@
+ api/{0}
+ for conversion to Variant
+ md/aws-sdk-dotnet-core#{0}
+ saved:<
+ version="
+!isSaveLoaded
+!readSaveDone 
+","eventVersion":1,"unityInstallationID":"
+"eventParams":{"clientVersion":"
+"eventVersion":
+#OnRewardEarnedThreaded, {0}, saved
+$Version
+$Version=
+%APPVERSION%
+' from bundle '
+', Version: 
+*.json
+, Version=
+, attempting to remove saved cache
+, aws-chunked
+,CanCreateAWSCredentials = 
+-pley.mobirate.dazw
+.amazonaws.com
+.api.aws
+.aws
+.aws/credentials
+.cfg.json
+.json
+//response:Attribute[@Name='https://aws.amazon.com/SAML/Attributes/Role']
+/2015-03-31/functions/{FunctionName}/versions
+/2018-10-31/layers/{LayerName}/versions
+/2018-10-31/layers/{LayerName}/versions/{VersionNumber}
+/2018-10-31/layers/{LayerName}/versions/{VersionNumber}/policy
+/2018-10-31/layers/{LayerName}/versions/{VersionNumber}/policy/{StatementId}
+/2019-09-25/functions/{FunctionName}/event-invoke-config/list
+/BuiltAssetBundles/
+/api/token
+/cache.json
+/news.json
+<?xml version="
+<enc:KeyEncryptionMethod enc:Algorithm="http://www.microsoft.com/xml/security/algorithm/PKCS1-v1.5-KeyEx" xmlns:enc="http://www.microsoft.com/xml/security/encryption/v1.0" />
+@version
+AWS
+AWS 
+AWS GovCloud (US-East)
+AWS GovCloud (US-West)
+AWS credential process terminated with {0}
+AWS secret key found using legacy and non-standard environment variable '{0}', consider updating to the cross-SDK standard variable '{1}'.
+AWS4
+AWS4-ECDSA-P256-SHA256
+AWS4-HMAC-SHA256
+AWS4-HMAC-SHA256-PAYLOAD
+AWS4-HMAC-SHA256-TRAILER
+AWSAccessKey
+AWSAccessKeyId
+AWSCache
+AWSCognito.GetDataset IdentityId 
+AWSCognito.IdentityId
+AWSCognito.IdentityIdPrev
+AWSCognito.Wipe
+AWSCognitoIdentityService.CreateIdentityPool
+AWSCognitoIdentityService.DeleteIdentities
+AWSCognitoIdentityService.DeleteIdentityPool
+AWSCognitoIdentityService.DescribeIdentity
+AWSCognitoIdentityService.DescribeIdentityPool
+AWSCognitoIdentityService.GetCredentialsForIdentity
+AWSCognitoIdentityService.GetId
+AWSCognitoIdentityService.GetIdentityPoolRoles
+AWSCognitoIdentityService.GetOpenIdToken
+AWSCognitoIdentityService.GetOpenIdTokenForDeveloperIdentity
+AWSCognitoIdentityService.GetPrincipalTagAttributeMap
+AWSCognitoIdentityService.ListIdentities
+AWSCognitoIdentityService.ListIdentityPools
+AWSCognitoIdentityService.ListTagsForResource
+AWSCognitoIdentityService.LookupDeveloperIdentity
+AWSCognitoIdentityService.MergeDeveloperIdentities
+AWSCognitoIdentityService.SetIdentityPoolRoles
+AWSCognitoIdentityService.SetPrincipalTagAttributeMap
+AWSCognitoIdentityService.TagResource
+AWSCognitoIdentityService.UnlinkDeveloperIdentity
+AWSCognitoIdentityService.UnlinkIdentity
+AWSCognitoIdentityService.UntagResource
+AWSCognitoIdentityService.UpdateIdentityPool
+AWSEndpointDefinition
+AWSException
+AWSExceptionMessage
+AWSInitializeCollections
+AWSKMSKeyARN
+AWSKinesisFirehose CopyFile failed. 
+AWSKinesisFirehose OnApplicationResumed, recordsBufferFilledEvent.Set
+AWSKinesisFirehose OnIosApplicationDidEnterBackground, ignoring
+AWSKinesisFirehose OnIosApplicationDidEnterBackground, recordsBufferFilledEvent.Set
+AWSKinesisFirehose OnIosApplicationDidEnterBackground, started background task
+AWSKinesisFirehose ThreadAbortException
+AWSKinesisFirehose data size is too big. {0} + {1} = {2} > {3}
+AWSKinesisFirehose ended background task
+AWSKinesisFirehose ending background task
+AWSKinesisFirehose failed to create dir. 
+AWSKinesisFirehose failed to create truncated file. 
+AWSKinesisFirehose failed to delete file. 
+AWSKinesisFirehose failed to delete truncated file. 
+AWSKinesisFirehose failed to open file for reading. 
+AWSKinesisFirehose failed to open file for writing. 
+AWSKinesisFirehose failed to replace file. 
+AWSKinesisFirehose failed to restore file size. 
+AWSKinesisFirehose failed to write file. 
+AWSKinesisFirehose setting isFinalizingExpiringIosBackgroundTask false
+AWSKinesisFirehose skipping PutRecord
+AWSKinesisFirehose worker thread exited
+AWSKinesisFirehose, failed to read the file, got {0} bytes but expected {1}
+AWSKinesisFirehose, newline not found in a buffer of length {0}
+AWSKinesisFirehose, put record operation was interrupted.
+AWSKinesisFirehose.AwaitFinishQuit timed out with a budget of {0}ms
+AWSKinesisFirehose.OnIosApplicationBackgroundTaskExpiring end
+AWSKinesisFirehose.OnIosApplicationBackgroundTaskExpiring start
+AWSKinesisFirehose.PutRecord, {0} bytes to stream '{1}'.
+AWSKinesisFirehose.TryPutRecord, retrying
+AWSKinesisFirehose.TryPutRecord, successfully put record, RecordId '
+AWSLogMetrics
+AWSLogging
+AWSManager
+AWSProfileName
+AWSProfilesLocation
+AWSRegion
+AWSResponseLogging
+AWSSDK.
+AWSSDK.Extensions.CrtIntegration
+AWSSDK.Extensions.CrtIntegration.CrtChecksums
+AWSSDK.KeyManagementService
+AWSSDK.SSO
+AWSSDK.SSOOIDC
+AWSSDK.SecurityToken
+AWSSecretKey
+AWS_ACCESS_KEY_ID
+AWS_ACCOUNT_ID_ENDPOINT_MODE
+AWS_CONFIG_FILE
+AWS_CONTAINER_AUTHORIZATION_TOKEN
+AWS_CONTAINER_AUTHORIZATION_TOKEN_FILE
+AWS_CONTAINER_CREDENTIALS_FULL_URI
+AWS_CONTAINER_CREDENTIALS_RELATIVE_URI
+AWS_CSM_CLIENT_ID
+AWS_CSM_ENABLED
+AWS_CSM_HOST
+AWS_CSM_PORT
+AWS_DEFAULTS_MODE
+AWS_DEFAULT_REGION
+AWS_DISABLE_REQUEST_COMPRESSION
+AWS_EC2_METADATA_DISABLED
+AWS_EC2_METADATA_SERVICE_ENDPOINT
+AWS_EC2_METADATA_SERVICE_ENDPOINT_MODE
+AWS_EC2_METADATA_V1_DISABLED
+AWS_ENABLE_ENDPOINT_DISCOVERY
+AWS_ENDPOINT_URL
+AWS_ENDPOINT_URL_
+AWS_EXECUTION_ENV
+AWS_IAM
+AWS_IGNORE_CONFIGURED_ENDPOINT_URLS
+AWS_INTERNAL_ENV
+AWS_LAMBDA_FUNCTION_NAME
+AWS_MAX_ATTEMPTS
+AWS_OWNED_CMK
+AWS_PROFILE
+AWS_REGION
+AWS_REQUEST_MIN_COMPRESSION_SIZE_BYTES
+AWS_RETRY_MODE
+AWS_ROLE_ARN
+AWS_ROLE_SESSION_NAME
+AWS_SDK_UA_APP_ID
+AWS_SECRET_ACCESS_KEY
+AWS_SECRET_KEY
+AWS_SESSION_TOKEN
+AWS_SHARED_CREDENTIALS_FILE
+AWS_STS_REGIONAL_ENDPOINTS
+AWS_USE_DUALSTACK_ENDPOINT
+AWS_USE_FIPS_ENDPOINT
+AWS_WEB_IDENTITY_TOKEN_FILE
+AdditionalVersionWeights
+Amazon.Extensions.CrtIntegration.CrtAWS4aSigner
+An AWS credentials or SAML role profile with name '{0}' could not be found.
+Analytics.LogEventConversionData
+Analytics.LogOfferConversion productId:{0} location:{1} bought:{2}
+AnonymousAWSCredentials do not support this operation
+App.config does not contain credentials information. Either add the AWSAccessKey and AWSSecretKey properties or the AWSProfileName property.
+AppData/Local/AWSToolkit
+Application.version
+Application.version {0} contains {1} dots
+AppsFlyer_conversion_data
+Assembly {0} could not be found or loaded. This assembly must be available at runtime to use Amazon.Runtime.AssumeRoleAWSCredentials.
+AssetBundle not found at path '
+AssetBundleLoader. Failed to load EditorEntry: 
+AssetBundleManifest
+AssetBundleUtils.GetMainDirName {0}
+AssetBundleUtils.UnloadBundle, null bundle, 
+AssetBundles
+AwsManager ctor
+Backup config has not been downloaded yet for app version 
+Binary stream '{0}' does not contain a valid BinaryHeader. Possible causes are invalid stream or object version change between serialization and deserialization.
+Bundle '{0}' loaded, but there are no references, unloading...
+Bundle must be in Loading state, {0}, {1}
+Bundle must be in Unloaded state before loading async, {0}, {1}
+Bundle must be in Unloaded state, {0}, {1}
+Bundle or same content bundle already bought: {0}
+BundleReference(ID:{0}) OnBundleLoadedAsync key:{1} {2}
+Called SavePresets with SaveType = None...
+Can't call AssetBundle.LoadFromFile (
+Can't release bundle reference, key {0}
+Cannot fetch credentials from container - neither AWS_CONTAINER_CREDENTIALS_RELATIVE_URI or AWS_CONTAINER_CREDENTIALS_FULL_URI environment variables are set.
+CinemaVideoQuest.OnRewardEarnedThreaded, {0}, SaveSpecificServerItems
+CoLoadPermanentWebglBundles, loading backgrounds...
+CoLoadPermanentWebglBundles, loading bus parts...
+CoLoadPermanentWebglBundles, loading busupgrade...
+CoLoadPermanentWebglBundles, loading cutscenes...
+CoLoadPermanentWebglBundles, loading paints...
+CoLoadPermanentWebglBundles, loading units...
+CoLoadPermanentWebglBundles, loading zombiepedia...
+CoPermanentlyLoadBundleWebgl, permanentBundles contains 
+CognitoAWSCredentials.Logins
+CognitoAWSCredentials.identityIdField
+CognitoAWSCredentials.loginsGetter
+CognitoAWSCredentials.loginsSetter
+CommonBundle
+ConfigAndDateLoader, tried to load version {0}, but current is {1}
+ConfigRetrieverAwsLambda
+ConfigRetrieverAwsLambda: null jobject
+Conversion
+Conversion buffer overflow.
+Conversion is not supported for arithmetic types without operator overloading.
+Conversion overflows.
+CopyV1AccountToV2Account SaveToDataset
+Core.endpoints.customizations.json
+Core.endpoints.json
+CrashBeforeSaveAndConsume
+CrashBeforeSaveAndConsume...
+CreateReference, bundle {0} is not loaded, there are waiting async refs, this ref must be async, maybe TODO
+CreateReference, first ref, but bundle is already loaded
+CreateReference, there are refs with IsBundleLoaded==true (Id:{0}) but bundle {1} is not loaded
+Creating externalDazwDir: 
+CurrentDeliveryStreamVersionId
+DataFormatConversionConfiguration
+DataSet.RemotingVersion
+DataSourceProductVersion
+DataSourceProductVersionNormalized
+DataTable.DataColumn_{0}.XmlDataType
+DataTable.RemotingVersion
+DazwIdToken.PvpToken
+DazwIdToken.SyncToken
+DazwIdTokenRequest
+DazwSyncIdTokenAuthRequests
+Default config check failed. Is 'Assets/Resources/primarydata.json' outdated? {0}
+Deleting old save 
+Detected ObsoleteShopBundleType = None in Shop.ISaveable.OnLoad(): 
+DiscountShopBundleService({0}), Current not loaded, invalid ProductId:
+DownloadSave
+Dynamic SQL generation for the DeleteCommand is not supported against a SelectCommand that does not contain a row version column.
+Dynamic SQL generation for the UpdateCommand is not supported against a SelectCommand that does not contain a row version column.
+Entry.ctor, null bundle
+Error loading AWS credential or SAML role profile '{0}'
+Error loading AWS credentials from profile {0}
+Error loading AssetBundleManifest
+Error parsing version string: {0}
+Error unmarshalling response back from AWS.
+Error unmarshalling response back from AWS. 
+Error while initializing the Pley SDK: 
+EventBridge supports only SigV4 and SigV4a signature versions
+ExpandoCheckVersion
+Expected Version object value
+Expected schema root. Make sure the root element is <schema> and the namespace is 'http://www.w3.org/2001/XMLSchema' for an XSD schema or 'urn:schemas-microsoft-com:xml-data' for an XDR schema.
+Failed to initialize zlib. You probably have an old zlib installed. Version 1.2.0.4 or later is required.
+Failed to load asset {0} from bundle {1}
+Failed to load discount_bundle_cooldown from config
+Failed to load discount_bundle_duration from config
+Failed to load save data
+Failed to parse charm from save: {0}
+Failed to parse obsolete shop bundle type in Shop.ISaveable.OnLoad(): 
+FederatedAWSCredentials configured for a specific user but no credential request callback registered; falling back to default identity.
+FileMigrationManager.MigrateCognitoSaves
+FileMigrationManager.MigrateCognitoSaves copying 
+FileMigrationManager.MigrateLocalSaveToInternalDazwDir
+FileMigrationManager.MigratePleyCognitoSaves
+FinalAWSException
+FinalAWSExceptionMessage
+FormatVersion
+FunctionVersion
+GeoManager, loading local save
+GetDazwIdToken {0}
+GetSdkVersion
+GetXsollaTokenRequest
+HasFreshDazwIdToken {0}, 
+Hidden/Internal-UIE-ColorConversionBlit
+Hidden/UIE-ColorConversionBlit
+Http Version Not Supported
+I18N, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+INTERNAL ERROR; someone wrote unexpected code in sys.xml
+Immediate draws	: 
+InitialReadSave
+Invalid BinaryXml protocol version.
+Invalid endpoint.json format.
+Invalid value for AWS_STS_REGIONAL_ENDPOINTS environment variable. A string regional/legacy is expected.
+Invalid version
+IsNewerVersionAvailable
+IsRowVersion
+Item {0} could not be loaded (Probably incompatible save).
+LastVersionNews
+LatestMatchingVersion
+LayerVersion
+LayerVersionArn
+LayerVersions
+Load save
+LoadPermanentWebglBundles
+Loaded bundle {0}. Duration {1}; Ticks: {2}
+Loaded sound asset bundles
+Loading sound asset bundles...
+Loading sound bundle but can't play sound now: 
+LocalSave
+LocalizationManager.SavedCacheName
+MaximumVersion
+Method {0}.{1}() specified by XmlSchemaProviderAttribute has invalid signature: return type must be compatible with System.Xml.XmlQualifiedName.
+Microsoft.CSharp.RuntimeBinder.Binder, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfo, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+MinimumVersion
+Missing required parameter - Version in JSON Payload
+Mono.Data.Sqlite.SQLiteProviderServices, Mono.Data.Sqlite.Linq, Version=2.0.38.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139
+NRE AssetBundleLoader.Dispose.UnloadAll 
+NRE AssetBundleLoader.UnloadAll 
+NRE AssetBundleLoader.UnloadAll entry 
+NRE AssetBundleLoader.UnloadBundle {0}{1}
+NewsManager - requesting news.json from 
+NewsManager.ImagesCache - Could not save image 
+NewsManager.ImagesCache - Successfully saved image 
+NonVersionedProviderType
+Object must be of type Version.
+OfferContent.InitShopBundle. Different unit sets in one bundle, found {0} and {1}
+OfferMenu.InitActiveShopBundle F{0}
+OfferMenuContent: trying to init but activeBundle is None
+OnShopBundleChanged {0}
+Only HTTP/1.0 and HTTP/1.1 version requests are currently supported.
+Only SQLite Version 3 is supported at this time
+Open Local Save
+Open save
+OpenSave IdentityId:
+Pley
+Pley Mono
+Pley initialization failed due to SDK already created!
+Pley user: 
+Pley.GameLoaded
+Pley.SDK.CrashGame
+Pley.UserEngaged
+Pley.UserInteracted
+PleyCloudStorage
+PleyCloudStorage File.Delete 
+PleyCloudStorage file not found 
+PleyCloudStorage loaded 
+PleyConfig
+PleyLeaderboardStub should only be used in the Unity editor!
+PleyStore.OnRedeliveredBeforePayment {0}
+PleyStore.RedeliverPurchases, !isAllowedToProcessPayments
+PleyStore.RedeliverPurchases, CheckRequirements failed, {0}
+PleyStore.RedeliverPurchases, empty identity
+PleyStore.RedeliverPurchases, isRedelivering, skipping
+PleyStore.RedeliverPurchases, prices.Count == 0
+PleyStore.RequestPayment TryRedeliverPurchases
+PleyStore.TryRedeliverPurchases
+PopularItemSets.DownloadAsync https://dazw-dl.mobirate.com/popular-itemsets/data.json...
+PostScore {0} skipped, save.cycle:{1} save.ticks:{2}
+Prefix "xml" is reserved for use by XML and can be mapped only to namespace name "http://www.w3.org/XML/1998/namespace".
+ProcessValuePack(): save is not loaded
+ProductsManager.OnSaveGameLoadedMultiple: could not find obsolete bundle {0}
+Profile '{0}' does not contain AWS credential materials
+Profile '{0}' indicates AWS credential type but does not contain AWS credential key materials
+PublishedVersions
+QuestRewardSaveToString invalid RandomItem category: 
+Raw data access is not supported for asset bundles
+Region system name {0} was not found in region data bundled with SDK; assuming new region.
+Request object does not have required field VersionNumber set
+RuntimeVersionArn
+RuntimeVersionConfig
+S3ObjectVersion
+STREAMING-AWS4-HMAC-SHA256-PAYLOAD
+STREAMING-AWS4-HMAC-SHA256-PAYLOAD-TRAILER
+Satellite contract version attribute on the assembly '{0}' specifies an invalid version: {1}.
+Save data is corrupted
+Save data is incompatible. Reinstall the game. 
+Save loaded: 
+SaveGameJsonLoader.LoadFromStorage: 
+SaveGameService not loaded
+SaveGameService.LoadWithCustomServerLoader
+SaveGameService.Save, mode={0}, reason={1}
+SaveGameService.SaveUserData, can not save because did not load
+SaveGameService.SaveUserData, changing mode from LocalAndServer to OnlyLocal
+SaveGameService.SaveUserData, ignoring mode OnlyServer
+SaveGameService.SaveUserData, skipping because IsSavingBlocked
+SaveGameService.SaveUserData, skipping because game is crashed
+SaveGameService._Load, no savegame to load, using default loader
+SaveGameService._Load, using default serverLoader
+SaveGameService.ctor done {0}
+SaveGameService.ctor... {0}
+SaveOnQuit
+SaveToDataset, 
+Saved: 
+SceneSwitcher unloading bundle
+SceneSwitcher unloading scene bundle
+ServiceURL configured from global environment variable: AWS_ENDPOINT_URL.
+Settings, loading local save
+Shop.boughtShopBundles
+ShopBundleOffer
+SignatureVersion
+SigningProfileVersionArn
+SigningProfileVersionArns
+SkadNetwork.activeConfigVersion
+SkipDailyVideoQuest.OnRewardEarnedThreaded, {0}, SaveSpecificServerItems
+StarterSceneController.OnBundlesLoaded {0}
+String access is not supported for asset bundles
+SyncManager, auto resolve Pley conflict with remote
+SyncManager.InstallVersion
+SyncManager.SaveCounter
+SyncManager.Synchronize, SaveGameService is not loaded yet
+System.Data.Common.DbProviderServices, System.Data.Entity, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+System.Drawing.Design.ToolboxItem, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.Security.ClaimsIdentity.version
+System.Xml.Linq.XObject
+System.Xml.XmlAttribute[]
+System.Xml.XmlNode
+System.Xml.XmlNode[]
+TLS version 1.1 or 1.2 are not supported on this system. Some AWS services will refuse traffic. Please consider updating to a system that supports newer security protocols.
+TMP Save Glyph Vertex Data
+TMP Save Processing States
+TMP Save Text Extent & Page Info
+The 'xmlns' attribute is bound to the reserved namespace 'http://www.w3.org/2000/xmlns/'.
+The AWS Access Key ID cannot be NULL or a Zero length string
+The ResourceReader class does not know how to read this version of .resources files. Expected version: {0}  This file: {1}
+The XmlReader passed in to construct this XmlValidatingReaderImpl must be an instance of a System.Xml.XmlTextReader.
+The app.config/web.config files for the application did not contain region information
+The credential options represent SSOAWSCredentials.  This is not allowed here.  Please use a different type of credentials.
+The currently loaded version of AWSSDK.SecurityToken doesn't support SAML authentication.
+The environment variable AWS_EC2_METADATA_SERVICE_ENDPOINT was set with value 
+The environment variable {0} was not set with AWS region data.
+The environment variables {0}/{1}/{2} were not set with AWS credentials.
+The prefix 'xml' is bound to the namespace name 'http://www.w3.org/XML/1998/namespace'. Other prefixes must not be bound to this namespace name, and it must not be declared as the default namespace.
+The return type of overload method for operator '{0}' does not match the parameter type of conversion method '{1}'.
+The root element of a W3C XML Schema should be <schema> and its namespace should be 'http://www.w3.org/2001/XMLSchema'.
+The target namespace of an attribute declaration, whether local or global, must not match http://www.w3.org/2001/XMLSchema-instance.
+This protocol version is not supported.
+Tile not found in AssetBundle: tile
+Too many dependencies ({0}) for bundle {1}, directDeps: {2}
+Trying to add bought obsolete shop bundle more than once in Shop.ISaveable.OnLoad(): 
+Type '{0}' is not allowed here. See https://go.microsoft.com/fwlink/?linkid=2132227 for more details.
+Unexpected SawSoundController.currentState: 
+Unexpected conversion result.
+Unexpected environment variable value type AWS_CSM_ENABLED. Set a valid boolean value.
+Unexpected environment variable value type AWS_CSM_PORT. Set a valid integer value.
+Unexpected token or value when parsing version. Token: {0}, Value: {1}
+UnitSetManager.ReadSave. Saved data contains invalid symbol count
+UnitSkinBundle+{0}
+UnitUpgradeRecord.Parse length mismatch, got {0} for version {1}, s: {2}
+UnityAwsSdk
+UnityAwsSdk.Awake
+UnityServicesProjectConfiguration.json
+Unknown md/framework-raw-version#
+UnloadAll bundle {0}{1} at {2} ticks
+UnloadBundle(). Bundle not loaded: 
+Unloading bundle {0}{1} at {2} ticks
+Unsupported credential version: {0}
+UpdateConversionValue cv:{0}, ignored, because active config is outdated,
+UpdatePostbackConversionValue cv:{0} coarseValue:{1} lockWindow:{2}
+Version
+Version must be Original, Current, or Proposed.
+Version not found.
+Version not specified for XML declaration.
+Version number '{0}' is invalid.
+Version string portion was too short or too long.
+Version value must be positive.
+Version's parameters must be greater than or equal to zero.
+VersionId
+Versions
+VideoQuest.OnRewardEarnedThreaded, {0}, SaveSingleServerItem
+Warning: Unable to save SSO Token Cache. Future retrieval will have to produce a token.
+WriterVersion
+Wrong XML version information. The XML must match production "VersionNum ::= '1.' [0-9]+".
+X-Amz-Executed-Version
+X-AspNet-Version
+Xml type 'List of {0}' does not support a conversion from Clr type '{1}' to Clr type '{2}'.
+Xml type '{0}' does not support a conversion from Clr type '{1}' to Clr type '{2}'.
+XmlReaderSettings.XmlNameTable must be the same name table as in XmlParserContext.NameTable or XmlParserContext.NamespaceManager.NameTable, or it must be null.
+Xsolla.SDK.Common.RunOnStartThread
+XsollaClientBridgeHelpersIOS
+XsollaClientCallback
+XsollaClientConfiguration
+XsollaClientHelpers
+XsollaSDKSettings
+Your sqlite3 version is old - please upgrade to at least v3.5.0!
+[OldXsolla SDK]
+[Pley SDK]
+[Version]
+[Xsolla SDK][
+[Xsolla SDK][LocaleInfo]: Unable to set locale '
+[{0}][{1}][{2}].xml
+] to version 
+_ColorConversion
+_Version
+_VersionCompatibility
+afVersion
+afVersion {0}
+amazonaws
+amazonaws.com
+amazonaws.com.cn
+api.aws
+app_version
+applicationVersionInt {0}
+arn:aws:s3:::
+arn:aws:s3:::{0}/{1}
+assetBundleDependencies == null
+aws
+aws-api
+aws-chunked
+aws-cn
+aws-cn-global
+aws-dotnet-sdk-session-
+aws-global
+aws-iso
+aws-iso-b
+aws-iso-b-global
+aws-iso-e
+aws-iso-f
+aws-iso-global
+aws-marketplace-management:*
+aws-marketplace-management:uploadFiles
+aws-marketplace-management:viewMarketing
+aws-marketplace-management:viewReports
+aws-marketplace-management:viewSupport
+aws-marketplace:*
+aws-marketplace:Subscribe
+aws-marketplace:Unsubscribe
+aws-marketplace:ViewSubscriptions
+aws-portal:*
+aws-portal:ModifyAccount
+aws-portal:ModifyBilling
+aws-portal:ModifyPaymentMethods
+aws-portal:ViewAccount
+aws-portal:ViewBilling
+aws-portal:ViewPaymentMethods
+aws-portal:ViewUsage
+aws-sdk-dotnet-coreclr
+aws-us-gov
+aws-us-gov-global
+aws.error_code
+aws.request_id
+aws4_request
+aws:CurrentTime
+aws:SecureTransport
+aws:SourceArn
+aws:SourceIp
+awsAccessKeyId
+awsSecretAccessKey
+aws_access_key_id
+aws_cognito_sync.db
+aws_secret_access_key
+aws_session_token
+bundle ref '{0}' is async
+bundle ref '{0}' is released
+bundle ref '{0}' is sync
+bundles
+bundles/
+bundles/busupgrade
+bundles/common
+bundles/fps
+bundles/splash
+bundles/zombiepedia
+clientVersion
+clip changed from {0} to 0, assuming that asset bundle was unloaded this frame
+cognito-identity.amazonaws.com
+com.mobirate.DeadAheadTactics
+com.mobirate.androidlibs.googleplayservices.AdvertisingId
+com.mobirate.androidlibs.googleplayservices.AdvertisingId$ICallback
+com.mobirate.androidlibs.googleplayservices.IPlayGamesCallback
+com.mobirate.androidlibs.googleplayservices.MobiratePlayGamesService
+com.mobirate.androidlibs.googleplayservices.signincredmgr.DazwGoogleSignInCredMgr
+com.mobirate.androidlibs.googleplayservices.signincredmgr.IDazwGoogleSignInCredMgrCallbacks
+com.mobirate.dazw.ANRDebug
+com.mobirate.dazw.DazwUtils
+com.mobirate.dazw.FileUtils
+com.mobirate.dazw.MemoryManager
+com.mobirate.dazw.NativeSettings
+com.mobirate.dazw.SignatureUtils
+com.mobirate.dazw.WindowInsetsManager
+com.mobirate.dazw.WindowInsetsManager$ICallbacks
+com.mobirate.dazw.ag
+com.mobirate.dazw.billing.IBillingCallbackHandler
+com.mobirate.dazw.billing.MobirateIAP
+com.mobirate.dazw.helpshift.DAZWHelpshift
+com.mobirate.dazw.helpshift.IHelpshiftListener
+com.mobirate.dazw.kr
+com.mobirate.dazw.unityLibrary.DazwActivity
+com.mobirate.deadahead
+com.mobirate.deadaheadone
+com.mobirate.googleplayservices.gamestats.GameStats
+configVersion
+conversion
+conversionType
+dazw
+dazw-ag
+dazw-android-dev
+dazw-android-prod
+dazw-appgallery-dev
+dazw-appgallery-prod
+dazw-auth
+dazw-bridge
+dazw-devconfig
+dazw-dex
+dazw-events
+dazw-gpgv2
+dazw-iap-gplay-v3
+dazw-iap-ios-v2
+dazw-iap-xsolla-gplay
+dazw-ios-dev
+dazw-ios-ko-dev
+dazw-ios-ko-prod
+dazw-ios-prod
+dazw-iosko
+dazw-iosmain
+dazw-l10n
+dazw-metro
+dazw-metro-dex
+dazw-ntp
+dazw-pley
+dazw-pley-dev
+dazw-pley-prod
+dazw-pvp-v2
+dazw-rewards
+dazw-sync-idtoken-auth
+dazwext
+dazwint
+didReceiveConversionData
+didReceiveConversionDataWithError
+discount_bundle_cooldown
+discount_bundle_duration
+discount_shopBundles
+ec2:BundleInstance
+ec2:CancelBundleTask
+ec2:CancelConversionTask
+ec2:DescribeBundleTasks
+ec2:DescribeConversionTasks
+elasticbeanstalk:CreateApplicationVersion
+elasticbeanstalk:DeleteApplicationVersion
+elasticbeanstalk:DescribeApplicationVersions
+elasticbeanstalk:UpdateApplicationVersion
+endpoints.json
+expected {0} but got {1} for version {2}, s: {3}
+externalDazwDir exists: 
+gameBundleID
+gamecenter.mobirate.daq
+gui.menu.pvp.main.editDeckView.saveDeck
+gui.menu.victory.save
+gui.menu.weeklyEvent.main.bottomPanel.Login.pley
+http://
+http://169.254.169.254
+http://169.254.170.2
+http://[fd00:ec2::254]
+http://james.newtonking.com/projects/json
+http://microsoft.com/wsdl/types/
+http://schemas.microsoft.com/clr/assem/
+http://schemas.microsoft.com/clr/ns/
+http://schemas.microsoft.com/clr/nsassem/
+http://schemas.microsoft.com/ws/2008/06/identity/claims/role
+http://schemas.xmlsoap.org/soap/encoding/
+http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name
+http://schemas.xmlsoap.org/wsdl/
+http://u@
+http://www.w3.org/
+http://www.w3.org/1999/XMLSchema-instance
+http://www.w3.org/2000/09/xmldsig#dsa-sha1
+http://www.w3.org/2000/09/xmldsig#hmac-sha1
+http://www.w3.org/2000/09/xmldsig#rsa-sha1
+http://www.w3.org/2000/09/xmldsig#sha1
+http://www.w3.org/2000/10/XMLSchema-instance
+http://www.w3.org/2000/xmlns/
+http://www.w3.org/2001/04/xmldsig-more#hmac-ripemd160
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha256
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha384
+http://www.w3.org/2001/04/xmldsig-more#hmac-sha512
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha384
+http://www.w3.org/2001/04/xmldsig-more#rsa-sha512
+http://www.w3.org/2001/04/xmldsig-more#sha384
+http://www.w3.org/2001/04/xmlenc#sha256
+http://www.w3.org/2001/04/xmlenc#sha512
+http://www.w3.org/2001/XMLSchema
+http://www.w3.org/2001/XMLSchema#string
+http://www.w3.org/2001/XMLSchema-instance
+http://www.w3.org/2003/11/xpath-datatypes
+http://www.w3.org/XML/1998/namespace
+https://
+https://cognito-identity-fips.{Region}.{PartitionResult#dnsSuffix}
+https://cognito-identity-fips.{Region}.{PartitionResult#dualStackDnsSuffix}
+https://cognito-identity.
+https://cognito-identity.{Region}.{PartitionResult#dnsSuffix}
+https://cognito-identity.{Region}.{PartitionResult#dualStackDnsSuffix}
+https://cognito-sync-fips.{Region}.{PartitionResult#dnsSuffix}
+https://cognito-sync-fips.{Region}.{PartitionResult#dualStackDnsSuffix}
+https://cognito-sync.
+https://cognito-sync.{Region}.{PartitionResult#dnsSuffix}
+https://cognito-sync.{Region}.{PartitionResult#dualStackDnsSuffix}
+https://collect.analytics.unity3d.com/api/analytics/collect/v2/projects/{0}/environments/{1}
+https://connect.facebook.net
+https://dazw-dl-sel.mobirate.com
+https://dazw-dl-sel.mobirate.com/cfg/gplay/{0}.cfg
+https://dazw-dl-sel.mobirate.com/cfg/ios/{0}.cfg
+https://dazw-dl.mobirate.com/
+https://dazw-dl.mobirate.com/cfg/gplay/{0}.cfg
+https://dazw-dl.mobirate.com/cfg/ios/{0}.cfg
+https://dazw-dl.mobirate.com/popular-itemsets/data.json
+https://dazw.dre.agconnect.link/H
+https://developers.facebook.com/tools/accesstoken/?app_id={0}
+https://developers.yodo1.com/
+https://firehose-fips.{Region}.{PartitionResult#dnsSuffix}
+https://firehose-fips.{Region}.{PartitionResult#dualStackDnsSuffix}
+https://firehose.
+https://firehose.{Region}.{PartitionResult#dnsSuffix}
+https://firehose.{Region}.{PartitionResult#dualStackDnsSuffix}
+https://graph.{0}/{1}/
+https://img.youtube.com/vi/
+https://ip-ranges.amazonaws.com/ip-ranges.json
+https://itunes.apple.com/app/id1437979802?&mt=8
+https://itunes.apple.com/app/id{0}?mt=8
+https://itunes.apple.com/app/id{0}?mt=8&action=write-review
+https://lambda-fips.{Region}.{PartitionResult#dnsSuffix}
+https://lambda-fips.{Region}.{PartitionResult#dualStackDnsSuffix}
+https://lambda.
+https://lambda.{Region}.{PartitionResult#dnsSuffix}
+https://lambda.{Region}.{PartitionResult#dualStackDnsSuffix}
+https://localhost/
+https://mobirate.helpshift.com/hc/en/4-dead-ahead-zombie-warfare/?p=web
+https://mobirate.helpshift.com/hc/en/4-dead-ahead-zombie-warfare/contact-us/?p=web
+https://pagead2.googlesyndication.com/pagead/ping?e=1
+https://play.google.com/store/apps/details?id=com.mobirate.DeadAheadTactics
+https://play.google.com/store/apps/details?id=com.mobirate.deadahead
+https://pro.ip-api.com/json?fields=66834431&key=
+https://sts-fips.{Region}.{PartitionResult#dnsSuffix}
+https://sts-fips.{Region}.{PartitionResult#dualStackDnsSuffix}
+https://sts.
+https://sts.amazonaws.com
+https://sts.{Region}.amazonaws.com
+https://sts.{Region}.{PartitionResult#dnsSuffix}
+https://sts.{Region}.{PartitionResult#dualStackDnsSuffix}
+https://www.gstatic.com/firebase/ssl/roots.pem
+https://www.mobirate.com/privacy-policy
+https://yodo1opp.com/
+https://z8higijep3.execute-api.eu-north-1.amazonaws.com/prod/
+huawei.mobirate.dazw
+invalid PFX version
+invalid version
+loadedBundle != null
+loadedSceneBundle != null
+local-plain.json
+log4net.Config.XmlConfigurator, log4net
+mbrtdazw
+menu.ConversionMenu.PurchaseSkinCoins
+menu.ConversionMenu.Title
+missing version
+mobirate-dazw-gpgv2-
+mobirate-dazw-ios-ko
+mobirate.helpshift.com
+mobirate_platform_20151124091314835-acd6cff1d9ea7f6
+mobirate_platform_20170406110215676-7b7190793fff92e
+mobirate_platform_20190827101413624-dce3e19803d3205
+mobirate_platform_20221209131909852-6accefbe6dc8fa4
+mobirate_platform_20240624125746100-91c6bea82142289
+new BundleReference {0} id:{1} {2} refCount:{3}
+new DazwIdToken {0}
+not unloading permanent webgl bundle 
+notification.ShopBundleEnd.
+offer_conversion
+oldVersion
+opened plain json save file {0} ({1} bytes), 
+opened save file {0} ({1} bytes)
+osVersion
+os_version
+pley
+pley_logged_in.txt
+pluginVersion
+posVersion == -1 || posDate == -1
+rds:DescribeDBEngineVersions
+redshift:DescribeClusterVersions
+runtimeVersion
+s3.amazonaws.com
+s3.dualstack.us-east-1.amazonaws.com
+s3:DeleteObjectVersion
+s3:GetBucketVersioning
+s3:GetObjectVersion
+s3:GetObjectVersionAcl
+s3:GetObjectVersionTorrent
+s3:ListBucketVersions
+s3:PutBucketVersioning
+s3:PutObjectVersionAcl
+save is not loaded
+save not loaded
+saver.version
+sdkVersion
+server.json
+shopitem.skinbundle.description.exclusiveskins
+shopitem.skinbundle.limitedTimeOffer
+signature-version
+signatureVersions
+splashAssetsBundle
+splashSceneBundle
+v3ConversionWindowDays
+version
+version format must be X.Y.Z, got:
+version/build-number
+version=
+version="
+versionRequiredToExtract
+x-amz-api-version
+x-aws-ec2-metadata-token
+x-aws-ec2-metadata-token-ttl-seconds
+xsolla.poweredBy
+xsolla_id
+{0}, Version={1}, Culture={2}, PublicKeyToken={3}
+{0}\{1}.json
+{VersionNumber}

@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "z-warfare",
+    "displayName": "Z Warfare",
+    "targetName": "ZWarfare",
+    "bundleIdentifier": "com.rebuild.zwarfare",
+    "originalBundleIdentifier": "com.mobirate.DeadAheadTactics",
+    "originalVersion": "4.4.7",
+    "originalMinimumOSVersion": "10.0",
+    "targetDevice": "iPhone XS Max (iPhone11,6 / 414x896 @3x / arm64)",
+    "targetOS": "iOS 16.1.1",
+    "deploymentTarget": "16.0",
+    "signingMode": "unsigned-adhoc-trollstore-sideloadly",
+    "projectSpec": "apps/z-warfare/ios-app/project.yml",
+    "status": "in-progress"
+  }
+]

@@ -12,6 +12,8 @@
     "deploymentTarget": "16.0",
     "signingMode": "unsigned-adhoc-trollstore-sideloadly",
     "projectSpec": "apps/z-warfare/ios-app/project.yml",
-    "status": "in-progress"
+    "status": "ready-for-ci",
+    "rebuildVersion": "4.4.8",
+    "rebuildBuild": "258"
   }
 ]

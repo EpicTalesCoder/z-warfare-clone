@@ -14,6 +14,7 @@ settings:
     TARGETED_DEVICE_FAMILY: "1"
     SUPPORTS_MACCATALYST: NO
     ENABLE_BITCODE: NO
+    COMPRESS_PNG_FILES: NO
     CODE_SIGNING_ALLOWED: NO
     CODE_SIGNING_REQUIRED: NO
     CODE_SIGN_IDENTITY: ""
@@ -48,22 +49,25 @@ targets:
         PRODUCT_NAME: ZWarfare
         PRODUCT_BUNDLE_IDENTIFIER: com.rebuild.zwarfare
         INFOPLIST_FILE: Sources/Resources/Info.plist
-        MARKETING_VERSION: "4.4.7"
-        CURRENT_PROJECT_VERSION: "257"
+        MARKETING_VERSION: "4.4.8"
+        CURRENT_PROJECT_VERSION: "258"
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         GENERATE_INFOPLIST_FILE: NO
+        IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+        SWIFT_VERSION: "5.0"
+        ARCHS: arm64
         CODE_SIGNING_ALLOWED: NO
         CODE_SIGNING_REQUIRED: NO
-        CODE_SIGN_IDENTITY: ""
+        CODE_SIGNING_IDENTITY: ""
+        CODE_SIGN_ENTITLEMENTS: Sources/Resources/Entitlements.plist
       configs:
         Release:
           ONLY_ACTIVE_ARCH: NO
           SWIFT_OPTIMIZATION_LEVEL: "-O"
           STRIP_INSTALLED_PRODUCT: NO
           COPY_PHASE_STRIP: NO
-    scheme:
-      testTargets:
-        - ZWarfareTests
+        Debug:
+          ONLY_ACTIVE_ARCH: YES
 
   ZWarfareTests:
     type: bundle.unit-test
@@ -76,6 +80,20 @@ targets:
     settings:
       base:
         GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.rebuild.zwarfare.tests
+        IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+        SWIFT_VERSION: "5.0"
+        ARCHS: arm64
         CODE_SIGNING_ALLOWED: NO
         CODE_SIGNING_REQUIRED: NO
         CODE_SIGN_IDENTITY: ""
+
+schemes:
+  ZWarfare:
+    build:
+      targets:
+        ZWarfare: all
+        ZWarfareTests: [test]
+    test:
+      targets:
+        - ZWarfareTests

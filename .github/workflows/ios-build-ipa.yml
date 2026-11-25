@@ -6,11 +6,13 @@ on:
     paths:
       - "apps/**"
       - "tools/verify-ios-parity.py"
+      - "tools/bump-ios-version.py"
       - ".github/workflows/ios-build-ipa.yml"
   pull_request:
     paths:
       - "apps/**"
       - "tools/verify-ios-parity.py"
+      - "tools/bump-ios-version.py"
       - ".github/workflows/ios-build-ipa.yml"
   workflow_dispatch:
     inputs:
@@ -44,7 +46,7 @@ on:
         type: boolean
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: "ios-build-ipa-${{ github.ref }}"
@@ -118,6 +120,17 @@ jobs:
         run: |
           python3 tools/verify-ios-parity.py "$APP_SLUG" --ci
 
+      - name: Auto-Increment Rebuild Version for CI Run
+        id: ver
+        env:
+          APP_SLUG: ${{ matrix.slug }}
+        run: |
+          python3 tools/bump-ios-version.py "$APP_SLUG" \
+            --ci-run "${GITHUB_RUN_NUMBER:-1}" \
+            --ci-attempt "${GITHUB_RUN_ATTEMPT:-1}" \
+            --no-manifest \
+            --github-output "$GITHUB_OUTPUT"
+
       - name: Inspect Xcode toolchain & install XcodeGen
         run: |
           xcodebuild -version
@@ -163,12 +176,15 @@ jobs:
       - name: Run XCTest suite on iOS Simulator
         if: ${{ github.event_name != 'workflow_dispatch' || inputs.run_simulator_tests }}
         env:
+          IOS_DIR: ${{ steps.gen.outputs.ios_dir }}
           XCODEPROJ: ${{ steps.gen.outputs.xcodeproj }}
           SCHEME: ${{ steps.gen.outputs.project_name }}
         run: |
+          rm -rf "${IOS_DIR}/sim-build"
           python3 - <<'PY'
-          import json, os, subprocess, sys
+          import json, os, pathlib, subprocess, sys
 
+          ios_dir = os.environ["IOS_DIR"]
           xcodeproj = os.environ["XCODEPROJ"]
           scheme = os.environ["SCHEME"]
 
@@ -195,7 +211,6 @@ jobs:
               for d in devs:
                   if d.get("isAvailable") and "iPhone" in d.get("name", ""):
                       name = d["name"]
-                      # Prefer 6.5"-class / Plus / Max iPhone simulators closely matching XS Max (414x896 @3x)
                       prio = 0
                       if "XS Max" in name:
                           prio = 100
@@ -211,19 +226,24 @@ jobs:
 
           candidates.sort(key=lambda x: (x[0], x[1]), reverse=True)
           _, rt, name, udid = candidates[0]
+          sim_dd = str(pathlib.Path(ios_dir).resolve() / "sim-build")
           print(f"Running XCTests on Simulator: {name} ({rt}, id={udid})")
           cmd = [
-              "xcodebuild", "test",
+              "xcodebuild",
               "-project", xcodeproj,
               "-scheme", scheme,
               "-destination", f"platform=iOS Simulator,id={udid}",
+              "-derivedDataPath", sim_dd,
               "CODE_SIGNING_ALLOWED=NO",
               "CODE_SIGNING_REQUIRED=NO",
               "CODE_SIGN_IDENTITY=",
+              "AD_HOC_CODE_SIGNING_ALLOWED=NO",
+              "test",
           ]
           res = subprocess.run(cmd)
           sys.exit(res.returncode)
           PY
+          rm -rf "${IOS_DIR}/sim-build"
 
       - name: Build ARM64 iOS Device App (Unsigned iphoneos)
         env:
@@ -233,7 +253,7 @@ jobs:
           BUILD_CONFIG: ${{ inputs.configuration || 'Release' }}
         run: |
           rm -rf "${IOS_DIR}/build"
-          xcodebuild build \
+          xcodebuild \
             -project "$XCODEPROJ" \
             -scheme "$SCHEME" \
             -sdk iphoneos \
@@ -244,7 +264,8 @@ jobs:
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY="" \
             AD_HOC_CODE_SIGNING_ALLOWED=NO \
-            SYMROOT="$PWD/${IOS_DIR}/build"
+            -derivedDataPath "$PWD/${IOS_DIR}/build" \
+            build
 
       - name: Package & Ad-Hoc Sign IPA for iOS 16.1.1 (TrollStore 2 / Sideloadly / AltStore)
         id: pkg
@@ -255,8 +276,8 @@ jobs:
           STRIP_EXT: ${{ inputs.strip_extensions == true && 'true' || 'false' }}
         run: |
           set -euo pipefail
-          PRODUCTS_DIR="${IOS_DIR}/build/${BUILD_CONFIG}-iphoneos"
-          APP_PATH="$(find "$PRODUCTS_DIR" -maxdepth 1 -name '*.app' -print -quit)"
+          PRODUCTS_DIR="${IOS_DIR}/build/Build/Products/${BUILD_CONFIG}-iphoneos"
+          APP_PATH="$(find "$PRODUCTS_DIR" -maxdepth 1 -name '*.app' ! -name '*Runner.app' -print -quit)"
           if [ -z "$APP_PATH" ] || [ ! -d "$APP_PATH" ]; then
             echo "::error::Built .app bundle not found in ${PRODUCTS_DIR}"
             exit 1
@@ -333,11 +354,19 @@ jobs:
                   print(f"::error::Corrupt ZIP entry in IPA: {bad}")
                   sys.exit(1)
 
-          # 2. Info.plist & MinimumOSVersion <= 16.1
+          # 2. Info.plist, Version Bump Verification & MinimumOSVersion <= 16.1
           info = plistlib.load((staged_app / "Info.plist").open("rb"))
           bundle_id = info.get("CFBundleIdentifier", "unknown")
           exec_name = info.get("CFBundleExecutable", "")
+          short_ver = str(info.get("CFBundleShortVersionString", "")).strip()
+          bundle_ver = str(info.get("CFBundleVersion", "")).strip()
           min_os = str(info.get("MinimumOSVersion", ""))
+          if not short_ver or short_ver == "1.0.0":
+              print(f"::error::CFBundleShortVersionString='{short_ver}' must be updated beyond 1.0.0 before packaging IPA!")
+              sys.exit(1)
+          if not bundle_ver:
+              print("::error::Missing CFBundleVersion in packaged Info.plist!")
+              sys.exit(1)
           if not exec_name or not (staged_app / exec_name).is_file():
               print(f"::error::Missing CFBundleExecutable '{exec_name}' inside {staged_app}")
               sys.exit(1)
@@ -368,16 +397,17 @@ jobs:
 
           sha = hashlib.sha256(ipa_path.read_bytes()).hexdigest()
           size_mb = ipa_path.stat().st_size / (1024 * 1024)
-          print(f"[PASS] Verified IPA: {ipa_path.name} ({size_mb:.2f} MiB, SHA-256: {sha})")
+          print(f"[PASS] Verified IPA: {ipa_path.name} v{short_ver} ({bundle_ver}) ({size_mb:.2f} MiB, SHA-256: {sha})")
           print(f"       Bundle ID: {bundle_id} | MinimumOSVersion: {min_os} | {lipo_out.strip()}")
 
           summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
           if summary_path:
               with open(summary_path, "a", encoding="utf-8") as sf:
                   sf.write(
-                      f"\n### Built IPA: `{ipa_path.name}`\n"
+                      f"\n### Built IPA: `{ipa_path.name}` — `v{short_ver} ({bundle_ver})`\n"
                       f"- **Target Device / OS**: iPhone XS Max (`arm64`, `414×896 @3x`) — iOS 16.1.1\n"
                       f"- **Bundle Identifier**: `{bundle_id}`\n"
+                      f"- **Version / Build**: `v{short_ver}` (`{bundle_ver}`)\n"
                       f"- **MinimumOSVersion**: `{min_os}` (verified `<= 16.1.1`)\n"
                       f"- **Mach-O Slice**: `{lipo_out.strip()}` (verified `IOS` device platform)\n"
                       f"- **Size**: `{size_mb:.2f} MiB`\n"
@@ -386,7 +416,37 @@ jobs:
                   )
           PY
 
-      - name: Upload Unsigned/Ad-Hoc IPA Artifact
+      - name: Publish Direct .ipa to GitHub Release (No .zip Wrapper)
+        if: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          APP_SLUG: ${{ matrix.slug }}
+          APP_VERSION: ${{ steps.ver.outputs.app_version }}
+          APP_BUILD: ${{ steps.ver.outputs.app_build }}
+          IPA_PATH: ${{ steps.pkg.outputs.ipa_path }}
+          IPA_NAME: ${{ steps.pkg.outputs.ipa_name }}
+        run: |
+          set -euo pipefail
+          TAG="latest-${APP_SLUG}"
+          SHORT_SHA="$(git rev-parse --short HEAD)"
+          REL_TITLE="${APP_SLUG} v${APP_VERSION} (${APP_BUILD}) — Latest iOS 16.1.1 IPA"
+          REL_NOTES="Latest unsigned/ad-hoc .ipa build for **${APP_SLUG}** \`v${APP_VERSION} (${APP_BUILD})\` (iOS 16.1.1 / iPhone XS Max) from commit \`${SHORT_SHA}\` (CI run #${GITHUB_RUN_NUMBER})."
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$IPA_PATH" --clobber
+            gh release edit "$TAG" --target "$GITHUB_SHA" --title "$REL_TITLE" --notes "$REL_NOTES"
+          else
+            gh release create "$TAG" "$IPA_PATH" \
+              --title "$REL_TITLE" \
+              --notes "$REL_NOTES" \
+              --target "$GITHUB_SHA"
+          fi
+          DIRECT_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases/download/${TAG}/${IPA_NAME}"
+          echo "Direct .ipa URL: ${DIRECT_URL}"
+          if [ -n "${GITHUB_STEP_SUMMARY:-}" ]; then
+            echo "- **Direct .ipa Download (No .zip)**: ${DIRECT_URL}" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload Unsigned/Ad-Hoc IPA Artifact (Backup)
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: ${{ matrix.slug }}-ios16.1.1-arm64-ipa
